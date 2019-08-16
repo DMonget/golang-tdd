@@ -9,8 +9,8 @@ func TestHello(t *testing.T) {
 		if got != want {
 			t.Errorf("got %q, but wanted %q", got, want)
 		}
-
 	}
+
 	t.Run("Saying hello to people.", func(t *testing.T) {
 		got := Hello("David", "")
 		want := "Hello, David!"
